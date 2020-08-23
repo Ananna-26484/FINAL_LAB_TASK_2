@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Final Term Lab Task 2</title>
-	<script type="text/javascript" src="NameScript.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
