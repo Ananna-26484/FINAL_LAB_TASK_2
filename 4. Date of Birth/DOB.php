@@ -8,8 +8,7 @@ if(isset($_GET['submit']))
     {
         if (in_array($m,range(1,12)))
         {         
-            echo "Date:$d / $m / $y";
-                
+            echo "Date:$d / $m / $y";                
         }      
         else{
             echo"Month is not in range";
@@ -19,5 +18,4 @@ if(isset($_GET['submit']))
     {
         echo"Date is not in range";
     }
-
 }
