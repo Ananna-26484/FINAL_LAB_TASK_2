@@ -11,21 +11,18 @@
 		<form action="Gender.php" onsubmit="return validate()">
 			<table>
 				<tr>
-					<td>Gender</td>
-					<td id="userMsg"> </td>
+					<td>Gender</td>					
 				</tr>
 				<tr>					
 					<td>
-						<input type="radio" name="gender" id="gender" value="male" onkeyup="remover()" onblur="blurmsg()">
-		                <label>Male</label>
-		                <input type="radio" name="gender" id="gender" value="female" onkeyup="remover()" onblur="blurmsg()">
-		                <label>Female</label>
-		                <input type="radio" name="gender" id="gender" value="other" onkeyup="remover()" onblur="blurmsg()">
-		                <label>other</label>
+						<input type="radio" name="gender" id="male" value="Male"><label>Male</label>
+		                <input type="radio" name="gender" id="female" value="Female"><label>Female</label>
+		                <input type="radio" name="gender" id="other" value="Other"><label>other</label>
 
 					</td>
 				</tr>				
-				<tr>					
+				<tr>
+					<td id="userMsg"> </td>					
 					<td><input type="submit" name="submit" value="Submit" ></td>					
 				</tr>
 			</table>

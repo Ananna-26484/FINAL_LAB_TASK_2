@@ -2,20 +2,29 @@
 
 function validate(){
 
-	//ErrorText= "";
-	if ( ( form.gender[0].checked == false ) && ( form.gender[1].checked == false ) && ( form.gender[2].checked == false ))
-	{
-		alert ( "Please choose your Gender" );
-		return false;
-	}
-	//if (ErrorText= "") { form.submit() }
-}
+	var gender1 = document.getElementById("male");
+	
+    var gender2 = document.getElementById("female");
+
+    var gender3 = document.getElementById("other");
 
 
+	if(gender1.checked  == true || gender2.checked == true || gender3.checked == true ){
 
-function blurmsg(){
+		
+        return true;
+        
+    }
+    
+    else{
+    
+        alert("Cant not be null ");        
+       
+        return false;
+    }
 
-	if(document.getElementById('gender').value == ""){
-		document.getElementById('userMsg').innerHTML = "* this field is required!";
-	}
+    
+    
+
+
 }
