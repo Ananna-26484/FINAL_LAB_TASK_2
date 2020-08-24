@@ -13,7 +13,6 @@ function validate(){
 	}
 }
 
-
 function remover(){
 	document.getElementById('emailMsg').innerHTML = "";
 }
