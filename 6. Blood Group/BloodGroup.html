@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Term Lab Task 2</title>
+	<script type="text/javascript" src="BloodGroup.js"></script>
+</head>
+<body>
+
+	<h1>Blood Group</h1>
+
+		<form action="BloodGroup.php" onsubmit="return validate()">
+			<table>
+				<tr>
+					<td>Blood Group</td>
+				</tr>
+				<tr>					
+					<td>
+						<select name="bloodGroup">
+			                <option  value="" >Select Group</option>
+							<option  value="A+">A+</option>
+							<option  value="B+" >B+</option>
+							<option  value="O+" >O+</option>
+							<option  value="AB+" >AB+</option>
+							<option  value="A-">A-</option>
+							<option  value="B-" >B-</option>
+							<option  value="O-" >O-</option>
+							<option  value="AB-" >AB-</option>											
+					</select></td>
+				</tr>				
+				<tr>					
+					<td id="userMsg"> </td>					
+					<td><input type="submit" name="submit" value="Submit" ></td>					
+				</tr>
+			</table>
+		</form>
+	
+</body>
+</html>
