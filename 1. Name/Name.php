@@ -1,10 +1,4 @@
-<html>
-<body>
-
-Welcome 
 <?php
- echo $_POST["username"]; 
+echo "Name";
+echo $_POST["username"]; 
  ?>
-
-</body>
-</html>
