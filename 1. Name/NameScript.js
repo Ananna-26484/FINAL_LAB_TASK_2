@@ -15,7 +15,6 @@ function validate(){
 		return true;
 	}
 
-
 }
 
 function remover(){
